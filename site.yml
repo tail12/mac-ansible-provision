@@ -1,0 +1,5 @@
+---
+- hosts: macbook
+  become: yes
+  roles:
+  - vscode
