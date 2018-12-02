@@ -1,5 +1,7 @@
 ---
-- hosts: macbook
-  become: yes
+- hosts: local
+  connection: local
+  become: no
   roles:
+  - alfred
   - vscode

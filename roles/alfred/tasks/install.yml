@@ -1,0 +1,7 @@
+
+---
+- name: Install alfred    
+  homebrew_cask:
+    name: alfred
+    state: present
+    install_options: 'appdir=/Applications'
